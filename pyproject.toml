@@ -1,7 +1,7 @@
 [project]
 name = "brainscan"
 version = "0.1.0"
-description = "Add your description here"
+description = "Brain tumor MRI classification with a reusable Keras pipeline and Streamlit UI"
 readme = "README.md"
 authors = [
     { name = "reda-guemry", email = "guemryreda@gmail.com" }
@@ -12,9 +12,11 @@ dependencies = [
     "numpy>=2.5.4",
     "opencv-python>=5.0.0.93",
     "pandas>=3.0.6",
+    "pillow>=11.0",
     "pydot>=4.0.1",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "streamlit>=1.40",
     "tensorflow>=2.22.0rc0",
 ]
 
@@ -29,4 +31,5 @@ module-root = ""
 [dependency-groups]
 dev = [
     "jupyter>=1.1.1",
+    "pytest>=8.0",
 ]

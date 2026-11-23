@@ -1,5 +1,10 @@
-
-
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+outputs/
+
+# Large trained artifacts are not committed; regenerate with --train True.
 models/best_model.keras
+models/*.keras
+models/*.h5
